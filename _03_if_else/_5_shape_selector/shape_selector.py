@@ -3,7 +3,7 @@ from tkinter import messagebox, simpledialog, Tk
 
 # Goal: Write a Python program that asks the user whether they want to
 #       draw a triangle, square, or circle and then draw that shape.
-a
+
 if __name__ == '__main__':
     window = Tk()
     window.withdraw()

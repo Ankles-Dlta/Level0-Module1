@@ -15,15 +15,15 @@ import tkinter as tk
 
 root = tk.Tk()
 
-canvas = tk.Canvas(root, width=200, height=200, bg="#FF00FF");
+canvas = tk.Canvas(root, width=500, height=500, bg="#FF00FF");
 canvas.grid()
 
 '''
 Text Rendering Example:
-                    x    y                                                       
-canvas.create_text(100, 50, text="text goes here", font=("Arial", 16))
+                 
 '''
 # Put your code below
 
+canvas.create_text(100, 50, text="Deniz is a meniz", font=("Arial", 16))
 
 root.mainloop()
